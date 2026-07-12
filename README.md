@@ -1,18 +1,23 @@
 # Naval Classifier: APS5 Edition
 
-A mobile-first, semi-satirical naval classification game where you play an APS5 classifier trying to identify boats before they sail past.
+A mobile-first, semi-satirical action classification game where you play an APS5 classifier stamping moving vessels before they sail out of the reporting window.
 
 ## Play Loop
 
-- Study the vessel cue, silhouette, and suspicious bureaucratic context.
-- Tap the best classification before the timer expires.
-- Build a streak, improve accuracy, and survive escalating policy memos.
-- Finish the shift to receive a dry performance review.
+- Watch each vessel physically move across the sea lane.
+- Hold **Scan** to build an evidence lock and reveal stronger clues.
+- Fire one of the permanent classification stamps: Patrol, Civilian, Support, or Absurd.
+- Classify early for speed points, scan-lock for intel points, and keep a streak alive.
+- Missed contacts and wrong stamps generate paperwork, naturally.
+
+## Controls
+
+- Touch: hold **Scan**, then tap a stamp.
+- Keyboard: hold `Space` to scan, press `A/S/D/F` to stamp, press `Enter` to continue after feedback.
 
 ## Local Development
 
 ```bash
-npm install
 npm run dev
 ```
 
